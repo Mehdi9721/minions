@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.grid{
+    width: 400px;
+    height: 600px;
+    background-color: yellow;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-image: url(img/sebastien-goldberg-CoE79_lhTJM-unsplash.jpg);
+    font-size: 200px;
+text-align: center;
+}
+.doodler{
+width: 60px;
+height: 85px;
+background-color: red;
+position: absolute;
+background-image:url(img/evil-minion-minions-gif-clip-art-despicable-me-minions-holiday-7de157a3e670a38570441ad84cc79732.png);
+border-radius: 20px;
+}
+.platform{
+    width: 85px;
+    height: 10px;
+    background-color: greenyellow;
+    position: absolute;
+    border-radius: 9px;
+    border: 1px solid black;
+}
